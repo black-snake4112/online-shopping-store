@@ -1,0 +1,454 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FYP NCBAE Front Lane</title>
+    <script src="https://kit.fontawesome.com/a3c5cabd22.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+ <!--- NAVIGATION BAR at the top --->
+ <nav class="navbar navbar-expand-lg navbar-light bg-light py-2 fixed-top">
+    
+    <div class="container">
+        <!---logo also size adjustment-->
+      <img src="img/logo01.jpg" alt=" NCAB$E" width="45px" >
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span> <i id="bar" class="fa-solid fa-bars"></i></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto ">
+          <!---home shop blog about contact us icons-->
+
+          <li class="nav-item">
+            <a class="nav-link" href="login.html">Login</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="signup.html">Sign up</a>
+          </li>
+
+          <li class="nav-item">
+          <a class="nav-link active" href="#">Home</a> <!---connect shop and home page-->
+         </li>
+
+          <li class="nav-item">
+            <a class="nav-link " href="shop.html">Shop</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link " href="blog.html">Blog</a>
+          </li>
+
+
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact Us</a>
+          </li>
+
+          <li class="nav-item" >
+            <a onclick="window.location.href='search.html';" >
+            <i class="fa-brands fa-searchengin">
+            </i>
+          </li>
+
+            <li class="nav-item">
+                <a onclick="window.location.href='carti.html';" >
+                <i class="fa-solid fa-cart-plus"></i>
+              </li>
+      </div>
+    </div>
+ </nav>
+
+
+ <!---text above shop now-->
+   <section id ="home">
+    <div class="container">
+        <h5>New Arrivals</h5>
+        <h1><span>Best Prices</span> This Year</h1>
+        <p>shoomatic offers your very comfortable time <br>on walking and exercies.</p>
+        <button>Shop Now</button>
+    </div>
+    </section>
+
+
+    <!---brand logos-->
+ <section id="brand" class="container">
+    <div class = "row m-0 py-5">
+        
+        <img class="img-fluid col-lg-2 col-md-4 col-6" src="img/brand/1.png" alt="">
+        <img class="img-fluid col-lg-2 col-md-4 col-6" src="img/brand/2.png" alt="">
+        <img class="img-fluid col-lg-2 col-md-4 col-6" src="img/brand/3.png" alt="">
+        <img class="img-fluid col-lg-2 col-md-4 col-6" src="img/brand/4.png" alt="">
+        <img class="img-fluid col-lg-2 col-md-4 col-6" src="img/brand/5.png" alt="">
+        <img class="img-fluid col-lg-2 col-md-4 col-6" src="img/brand/6.png" alt="">
+    </div>
+ </section>
+
+
+ <section id="new" class="w-100">
+    <div class="row p-0 m-0">
+        <div class="one col-lg-4 col-md-12 col-12 p-0"> 
+            <img class="img-fluid" src="img/new/1.jpg" alt="">
+        <div class="details">
+        <h2> Extreme rare sneakers</h2>
+        <button class="text-uppercase">Shop now</button>
+        </div>
+        </div>
+    
+            <div class="one col-lg-4 col-md-12 col-12 p-0"> 
+                <img class="img-fluid" src="img/new/2.jpg" alt="">
+            <div class="details">
+            <h2> Awesome blank outfit</h2>
+            <button class="text-uppercase">Shop now</button>
+            </div>
+            </div>
+            
+                <div class="one col-lg-4 col-md-12 col-12 p-0"> 
+                    <img class="img-fluid" src="img/new/3.jpg" alt="">
+                <div class="details">
+                <h2> Sportwear Up to 50% OFF</h2>
+                <button class="text-uppercase">Shop now</button>
+                </div>
+                </div>
+    </div>
+    
+ </section>
+
+
+
+<!--products home - bags shoes etc 4 products      Featured-->
+ <section id="featured" class="my-5 pb-5">
+    <div class="container text-center mt-5 py-5">
+        <h3> Our Featured</h3>
+        <hr class="mx-auto"> <!---ABOVE products center line bar-->
+        <p>Here you can check out our new products with fair price on rymo.</p>
+    </div>
+    <!--5-stars ratings -->
+        <div class="row mx-auto container-fluid"> <!---to remove bottom slider we use mx auto-->
+            <div class="product text-center col-lg-3 col-md-4 col-12">
+                <img class="img-fluid mb-3" src="img/featured/1.jpg" alt="">
+                <div class="star">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                </div>
+                <h5 class="p-name">Sport Boots</h5>
+                <h4 class="p-price">$92.00</h4>
+                <button class = "buy-btn">Buy now</button>
+            </div>
+            <!--4 products shoes bag etc listings-->
+            <div class="product text-center col-lg-3 col-md-4 col-12">
+                <img class="img-fluid mb-3" src="img/featured/2.jpg" alt="">
+                <div class="star">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                </div>
+                <h5 class="p-name">Sport Boots</h5>
+                <h4 class="p-price">$92.00</h4>
+                <button class = "buy-btn">Buy now</button>
+            </div>
+            <div class="product text-center col-lg-3 col-md-4 col-12">
+                <img class="img-fluid mb-3" src="img/featured/3.jpg" alt="">
+                <div class="star">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                </div>
+                <h5 class="p-name">Sport Boots</h5>
+                <h4 class="p-price">$92.00</h4>
+                <button class = "buy-btn">Buy now</button>
+            </div>
+            <div class="product text-center col-lg-3 col-md-4 col-12">
+                <img class="img-fluid mb-3" src="img/featured/4.jpg" alt="">
+                <div class="star">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                </div>
+                <h5 class="p-name">Sport Boots</h5>
+                <h4 class="p-price">$92.00</h4>
+                <button class = "buy-btn">Buy now</button>
+            </div>
+        </div>
+ </section>
+
+
+
+
+ <!---below 4products at home page-->
+ <section id="banner" class="my-5 py-5">
+    <div class="container">
+        <h4> MID SEASONS SALE</h4>
+        <h1> Autumn Collection<br>UP TO 20% OFF </h1>
+        <button class="text-uppercase">Shop Now</button>
+    </div>
+ </section>
+
+
+
+
+<!---home page finishing bottom listings-->
+ <section id="clothes" class="my-5 ">
+    <div class="container text-center mt-5 py-5">
+        <h3>Dresses and Jump suits</h3>
+        <hr class="mx-auto"> <!---ABOVE products center line bar-->
+        <p>Here you can check out our new products with fair price on rymo.</p>
+    </div>
+    <!--5-stars ratings -->
+        <div class="row mx-auto container-fluid"> <!---to remove bottom slider we use mx auto-->
+            <div class="product text-center col-lg-3 col-md-4 col-12">
+                <img class="img-fluid mb-3" src="img/clothes/1.jpg" alt="">
+                <div class="star">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                </div>
+                <h5 class="p-name">Sport Boots</h5>
+                <h4 class="p-price">$92.00</h4>
+                <button class = "buy-btn">Buy now</button>
+            </div>
+            <!--4 products shoes bag etc listings-->
+            <div class="product text-center col-lg-3 col-md-4 col-12">
+                <img class="img-fluid mb-3" src="img/clothes/2.jpg" alt="">
+                <div class="star">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                </div>
+                <h5 class="p-name">Sport Boots</h5>
+                <h4 class="p-price">$92.00</h4>
+                <button class = "buy-btn">Buy now</button>
+            </div>
+            <div class="product text-center col-lg-3 col-md-4 col-12">
+                <img class="img-fluid mb-3" src="img/clothes/3.jpg" alt="">
+                <div class="star">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                </div>
+                <h5 class="p-name">Sport Boots</h5>
+                <h4 class="p-price">$92.00</h4>
+                <button class = "buy-btn">Buy now</button>
+            </div>
+            <div class="product text-center col-lg-3 col-md-4 col-12">
+                <img class="img-fluid mb-3" src="img/clothes/4.jpg" alt="">
+                <div class="star">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                </div>
+                <h5 class="p-name">Sport Boots</h5>
+                <h4 class="p-price">$92.00</h4>
+                <button class = "buy-btn">Buy now</button>
+            </div>
+        </div>
+ </section>
+
+ 
+<!--watches products listings--->
+<section id="watches" class="my-5 ">
+    <div class="container text-center mt-5 py-5">
+        <h3>Best watches</h3>
+        <hr class="mx-auto"> <!---ABOVE products center line bar-->
+        <p>Here you can check out our new products with fair price on rymo.</p>
+    </div>
+    <!--5-stars ratings -->
+        <div class="row mx-auto container-fluid"> <!---to remove bottom slider we use mx auto-->
+            <div class="product text-center col-lg-3 col-md-4 col-12">
+                <img class="img-fluid mb-3" src="img/watches/1.jpg" alt="">
+                <div class="star">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                </div>
+                <h5 class="p-name">Sport Boots</h5>
+                <h4 class="p-price">$92.00</h4>
+                <button class = "buy-btn">Buy now</button>
+            </div>
+            <!--4 products shoes bag etc listings-->
+            <div class="product text-center col-lg-3 col-md-4 col-12">
+                <img class="img-fluid mb-3" src="img/watches/2.jpg" alt="">
+                <div class="star">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                </div>
+                <h5 class="p-name">Sport Boots</h5>
+                <h4 class="p-price">$92.00</h4>
+                <button class = "buy-btn">Buy now</button>
+            </div>
+            <div class="product text-center col-lg-3 col-md-4 col-12">
+                <img class="img-fluid mb-3" src="img/watches/3.jpg" alt="">
+                <div class="star">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                </div>
+                <h5 class="p-name">Sport Boots</h5>
+                <h4 class="p-price">$92.00</h4>
+                <button class = "buy-btn">Buy now</button>
+            </div>
+            <div class="product text-center col-lg-3 col-md-4 col-12">
+                <img class="img-fluid mb-3" src="img/watches/4.jpg" alt="">
+                <div class="star">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                </div>
+                <h5 class="p-name">Sport Boots</h5>
+                <h4 class="p-price">$92.00</h4>
+                <button class = "buy-btn">Buy now</button>
+            </div>
+        </div>
+ </section>
+
+
+
+ <!---Running shoes listings-->
+ <section id="Running Shoes" class="my-5 ">
+    <div class="container text-center mt-5 py-5">
+        <h3>Running Shoes</h3>
+        <hr class="mx-auto"> <!---ABOVE products center line bar-->
+        <p>Here you can check out our new products with fair price on rymo.</p>
+    </div>
+    <!--5-stars ratings -->
+        <div class="row mx-auto container-fluid"> <!---to remove bottom slider we use mx auto-->
+            <div class="product text-center col-lg-3 col-md-4 col-12">
+                <img class="img-fluid mb-3" src="img/shoes/1.jpg" alt="">
+                <div class="star">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                </div>
+                <h5 class="p-name">Sport Boots</h5>
+                <h4 class="p-price">$92.00</h4>
+                <button class = "buy-btn">Buy now</button>
+            </div>
+            <!--4 products shoes bag etc listings-->
+            <div class="product text-center col-lg-3 col-md-4 col-12">
+                <img class="img-fluid mb-3" src="img/shoes/2.jpg" alt="">
+                <div class="star">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                </div>
+                <h5 class="p-name">Sport Boots</h5>
+                <h4 class="p-price">$92.00</h4>
+                <button class = "buy-btn">Buy now</button>
+            </div>
+            <div class="product text-center col-lg-3 col-md-4 col-12">
+                <img class="img-fluid mb-3" src="img/shoes/3.jpg" alt="">
+                <div class="star">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                </div>
+                <h5 class="p-name">Sport Boots</h5>
+                <h4 class="p-price">$92.00</h4>
+                <button class = "buy-btn">Buy now</button>
+            </div>
+            <div class="product text-center col-lg-3 col-md-4 col-12">
+                <img class="img-fluid mb-3" src="img/shoes/4.jpg" alt="">
+                <div class="star">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                </div>
+                <h5 class="p-name">Sport Boots</h5>
+                <h4 class="p-price">$92.00</h4>
+                <button class = "buy-btn">Buy now</button>
+            </div>
+        </div>
+ </section>
+
+
+
+ <!---for footer last bottom-->
+ <footer class="mt-5 py-5">
+    <div class="row container mx-auto pt-5">
+        <div class="footer-one col-lg-3 col-md-6 col-12">
+            <img src="img/logo2.png" alt="">
+            <p> online E-commerce platform for shopping</p>
+        </div>
+        <div class="footer-one col-lg-3 col-md-6 col-12">
+            <h5 class="pd-2"> Featured Products </h5>
+            <ul class="text-uppercase list-unstyled"> 
+                <li><a href="watch.html">men </a></li>
+                <li><a href="bags.html">women</a></li>
+                <li><a href="sproduct.html">boys</a></li>
+                <li><a href="bags.html">girls</a></li>
+                <li><a href="shop.html">new arrivals</a></li>
+                <li><a href="shop.html">shoes</a></li>
+                <li><a href="shop.html">clothes</a></li>
+            </ul>
+        </div>
+        <div class="footer-one col-lg-3 col-md-6 col-12">
+            <h5 class="pd-2"> Contact US</h5>
+            <p>rockpicess@gmail.com</p>
+         <div>
+            <h5 class="text-uppercase"> Address </h5>
+            <p> front lane campus ncbae</p>
+         </div>
+         <div>
+            <h5 class="text-uppercase"> Phone</h5>
+            <p> 030912345678</p>
+         </div>
+         <div>
+            <h5 class="text-uppercase"> email</h5>
+            <p> gugloo921@gmail.com</p>
+         </div>
+        </div>
+        <div  class="footer-one col-lg-3 col-md-6 col-12">
+            <h5 class="pd-2"> instagram</h5>
+            <div class="row">
+                <img class="img-fluid w-25 h-100 m-2" src="img/insta/1.jpg" >
+                <img class="img-fluid w-25 h-100 m-2" src="img/insta/2.jpg" >
+                <img class="img-fluid w-25 h-100 m-2" src="img/insta/3.jpg" >
+                <img class="img-fluid w-25 h-100 m-2" src="img/insta/4.jpg" >
+                <img class="img-fluid w-25 h-100 m-2" src="img/insta/5.jpg" >
+                <img class="img-fluid w-25 h-100 m-2" src="img/insta/6.jpg" >
+            </div>
+        </div >
+    </div>
+ </footer>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+</body>
+</html>
